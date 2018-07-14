@@ -1,2 +1,3 @@
 # Sky-app
-@desc bootstrap 3.7 sky app
+@name sky app
+@desc bootstrap 3.7 
