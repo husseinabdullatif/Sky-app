@@ -1,0 +1,30 @@
+/*media*/
+@media (min-width: 768px) {
+    .navbar{
+      a{
+        padding: 20px 17px!important;
+      }
+    }
+}
+
+@media (max-width: 991px) {
+  .text-align-center{
+    text-align: center;
+  }
+  .media-padding-bottom{
+    padding-bottom: 40px;
+  }
+  .media-padding-top{
+    padding-top: 40px;
+  }
+  .float-none{
+    float: none !important;
+  }
+  .section-blog {
+    .blog {
+      p, img {
+        width: 100% !important;
+      }
+    }
+  }
+}

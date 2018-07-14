@@ -1,0 +1,6 @@
+.footer-main {
+  @include add-background($dark-color);
+  a {
+    color: white;
+  }
+}

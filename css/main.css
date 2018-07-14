@@ -1,0 +1,356 @@
+/* Skyapp Bootstrap Theme
+   Author: Hussein
+   Version 1.0.0
+*/
+/* Base - Base style, Normalize, Variables, Mixins */
+/* Font Colors */
+/* Background Colors */
+/*mixins*/
+/*normalize*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0 !important;
+}
+
+/*padding*/
+.padding {
+  padding: 40px;
+}
+
+.padding-top {
+  padding-top: 40px;
+}
+
+.padding-right {
+  padding-right: 40px;
+}
+
+.padding-bottom {
+  padding-bottom: 40px !important;
+}
+
+.padding-left {
+  padding-left: 40px;
+}
+
+.list, ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*list*/
+.list li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  border-bottom: 1px solid darkgray;
+}
+
+.list:last-child {
+  border: none;
+}
+
+/*border*/
+.border-primary {
+  border: 1px solid #00aff0 !important;
+}
+
+.border-top-primary {
+  border-top: 6px solid #00aff0 !important;
+}
+
+.border-top-secondary {
+  border-top: 6px solid #7fba00 !important;
+}
+
+/*margin*/
+.margin-none {
+  margin: 0;
+}
+
+/*img*/
+.img-rounded {
+  border-radius: 150px;
+}
+
+/*base*/
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  color: #666666;
+}
+
+.em-primary, .page-heading-primary {
+  color: #00aff0 !important;
+}
+
+.em-secondary, .page-heading-secondary {
+  color: #7fba00 !important;
+}
+
+.page-heading-primary {
+  border-color: #00aff0 !important;
+}
+
+.page-heading-secondary {
+  border-color: #7fba00 !important;
+}
+
+a {
+  display: inline-block;
+}
+
+.top-inner {
+  padding-top: 100px;
+}
+
+.section-primary {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+
+.section-secondary {
+  background-color: #7fba00 !important;
+  color: white !important;
+}
+
+.section-light {
+  background-color: #e4eef2 !important;
+  color: #666666 !important;
+}
+
+/*tab*/
+.bs-example .tab-pane {
+  background-color: #00aff0 !important;
+  color: white !important;
+  padding: 10px;
+}
+.bs-example a {
+  border-color: #00aff0 !important;
+}
+.bs-example .active a {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+.bs-example .panel-heading {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+
+/*panel-group*/
+.panel-heading {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+
+form input[type="submit"] {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+form input[type="submit"]:hover {
+  background-color: #2b5464 !important;
+  color: white !important;
+}
+
+/*media*/
+@media (min-width: 768px) {
+  .navbar a {
+    padding: 20px 17px !important;
+  }
+}
+@media (max-width: 991px) {
+  .text-align-center {
+    text-align: center;
+  }
+
+  .media-padding-bottom {
+    padding-bottom: 40px;
+  }
+
+  .media-padding-top {
+    padding-top: 40px;
+  }
+
+  .float-none {
+    float: none !important;
+  }
+
+  .section-blog .blog p, .section-blog .blog img {
+    width: 100% !important;
+  }
+}
+/* Modulus - Blocks, form, Etc */
+.section-block .block {
+  padding: 15px;
+}
+.section-block .block-light .fa-border {
+  border: 1px solid #00aff0 !important;
+  border-radius: 10px;
+  padding: 4px 18px;
+}
+
+.block-icon {
+  padding: 15px;
+}
+
+.block-primary {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+
+.block-secondary {
+  background-color: #7fba00 !important;
+  color: white !important;
+}
+
+.block-light {
+  background-color: #e4eef2 !important;
+  color: #666666 !important;
+}
+
+/*showcase*/
+section.showcase {
+  min-height: 70vh !important;
+  background: url("../img/showcase.jpg") no-repeat center;
+  background-size: cover;
+  font-size: 25px;
+}
+section.showcase .container {
+  padding-top: 100px;
+}
+
+.section-light.section-device ul {
+  margin-top: 40px;
+}
+.section-light.section-device a {
+  background-color: #00aff0 !important;
+  color: white !important;
+  border: none;
+}
+.section-light.section-device a:hover {
+  background-color: #1b6d85 !important;
+}
+
+/*section-main*/
+.about-section-main .carousel {
+  border: 4px solid #cccccc;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.list li {
+  font-size: 20px;
+}
+
+.head .block {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+.head img {
+  width: 80%;
+}
+
+.section-blog .blog {
+  border: 1px solid #cccccc;
+  margin-bottom: 40px;
+}
+.section-blog .blog img {
+  width: 40%;
+}
+.section-blog .blog p {
+  width: 60%;
+  float: right;
+}
+.section-blog .blog h2, .section-blog .blog img, .section-blog .blog p, .section-blog .blog .caption {
+  padding: 15px;
+}
+.section-blog .blog .caption {
+  background-color: #F3F3F3;
+  width: 100%;
+  border-top: 1px solid #cccccc;
+}
+.section-blog .panel-body .block {
+  margin-bottom: 15px;
+}
+
+.section-contact .panel-body {
+  padding: 20px !important;
+}
+.section-contact ul li {
+  margin-bottom: 15px;
+}
+
+.section-map iframe {
+  border: 2px solid #cccccc;
+}
+
+.section-blockquote {
+  border-bottom: 6px solid #7fba00 !important;
+}
+.section-blockquote p {
+  font-size: 25px;
+}
+
+/*form*/
+.search {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.search input {
+  border: 2px solid #00aff0 !important;
+  border-radius: 0;
+  height: 50px;
+}
+
+/* Layouts - Footer, Nav */
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 60px;
+  background-color: white !important;
+  border: 1px solid whitesmoke;
+  border-top: none;
+  border-bottom: none;
+}
+.navbar .container {
+  width: 100%;
+}
+.navbar .navbar-brand {
+  height: 60px;
+  padding: 20px 18px !important;
+}
+.navbar .navbar-toggle {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  background-color: white !important;
+  border: 1px solid #00aff0 !important;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #00aff0 !important;
+}
+.navbar .navbar-collapse {
+  border-color: #00aff0 !important;
+}
+.navbar a {
+  color: #00aff0 !important;
+}
+.navbar .nav .active a {
+  color: white !important;
+  background-color: #00aff0 !important;
+}
+.navbar .nav a:hover {
+  color: white !important;
+  background-color: #00aff0 !important;
+}
+
+.footer-main {
+  background-color: #2b5464 !important;
+  color: white !important;
+}
+.footer-main a {
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

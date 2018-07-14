@@ -1,0 +1,75 @@
+/*base*/
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $base-font-color;
+}
+
+.em-primary {
+  color: $primary-color;
+}
+
+.em-secondary {
+  color: $secondary-color;
+}
+
+.page-heading-primary {
+  border-color: $primary-color;
+  @extend .em-primary;
+}
+
+.page-heading-secondary {
+  border-color: $secondary-color;
+  @extend .em-secondary;
+}
+
+a {
+  display: inline-block;
+}
+
+.top-inner {
+  padding-top: 100px;
+}
+
+.section-primary {
+  @include add-background($primary-color);
+}
+
+.section-secondary {
+  @include add-background($secondary-color);
+}
+
+.section-light {
+  @include add-background($light-color);
+}
+
+/*tab*/
+.bs-example {
+  .tab-pane {
+    @include add-background($primary-color);
+    padding: 10px;
+  }
+  a {
+    border-color: $primary-color;
+  }
+  .active a {
+    @include add-background($primary-color);
+  }
+  .panel-heading {
+    @include add-background($primary-color);
+  }
+}
+
+/*panel-group*/
+.panel-heading {
+  @include add-background($primary-color);
+}
+
+form {
+  input[type="submit"] {
+    @include add-background($primary-color);
+  }
+  input[type="submit"]:hover {
+    @include add-background($dark-color);
+  }
+}

@@ -1,0 +1,64 @@
+/*normalize*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0 !important;
+}
+
+/*padding*/
+.padding {
+  padding: 40px;
+}
+
+.padding-top {
+  padding-top: 40px;
+}
+
+.padding-right {
+  padding-right: 40px;
+}
+
+.padding-bottom {
+  padding-bottom: 40px !important;
+}
+
+.padding-left {
+  padding-left: 40px;
+}
+
+.list, ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*list*/
+.list li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  border-bottom: 1px solid darkgray;
+}
+
+.list:last-child {
+  border: none;
+}
+
+/*border*/
+.border-primary {
+  border: 1px solid $primary-color;
+}
+.border-top-primary {
+  border-top: 6px solid $primary-color;
+}
+
+.border-top-secondary {
+  border-top: 6px solid $secondary-color;
+}
+
+/*margin*/
+.margin-none {
+  margin: 0;
+}
+
+/*img*/
+.img-rounded {
+  border-radius: 150px;
+}

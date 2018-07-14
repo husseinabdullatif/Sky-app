@@ -1,0 +1,16 @@
+/*mixins*/
+@mixin add-background($color) {
+  @if $color==$primary-color {
+    background-color: $primary-color;
+    color: white !important;
+  } @else if $color==$secondary-color {
+    background-color: $secondary-color;
+    color: white !important;
+  } @else if $color==$light-color {
+    background-color: $light-color;
+    color: $base-font-color !important;
+  } @else if $color==$dark-color {
+    background-color: $dark-color;
+    color: white !important;
+  }
+}

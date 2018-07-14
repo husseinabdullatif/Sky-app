@@ -1,0 +1,93 @@
+/*showcase*/
+section.showcase {
+  min-height: 70vh !important;
+  background: url("../img/showcase.jpg") no-repeat center;
+  background-size: cover;
+  font-size: 25px;
+  .container {
+    padding-top: 100px;
+  }
+}
+
+.section-light.section-device {
+  ul {
+    margin-top: 40px;
+  }
+
+  a {
+    @include add-background($primary-color);
+    border: none;
+  }
+  a:hover {
+    background-color: #1b6d85 !important;
+  }
+}
+
+/*section-main*/
+.about-section-main {
+  .carousel {
+    border: 4px solid #cccccc;
+  }
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.list li {
+  font-size: 20px;
+}
+
+.head {
+  .block {
+    border: 1px solid #cccccc;
+    padding: 10px;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+.section-blog {
+  .blog {
+    border: 1px solid #cccccc;
+    margin-bottom: 40px;
+    img {
+      width: 40%;
+    }
+    p {
+      width: 60%;
+      float: right;
+    }
+    h2, img, p, .caption {
+      padding: 15px;
+    }
+    .caption {
+      background-color: #F3F3F3;
+      width: 100%;
+      border-top: 1px solid #cccccc;
+    }
+  }
+  .panel-body .block {
+    margin-bottom: 15px;
+  }
+}
+.section-contact{
+  .panel-body{
+    padding: 20px !important;
+  }
+  ul li{
+    margin-bottom: 15px;
+  }
+}
+.section-map{
+  iframe{
+    border: 2px solid #cccccc;
+  }
+}
+.section-blockquote{
+  p{
+    font-size: 25px;
+  }
+  border-bottom: 6px solid $secondary-color;
+}
